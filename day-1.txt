@@ -1,0 +1,31 @@
+1.To read task
+
+2.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Description:
+a.HTTP1.1 is started in 1997 which is a older version while HTTP2 started in 2015 which is more advanced than HTTP1.1
+b.HTTP1.1 is slower compared to HTTP2 in terms of getting requests like HTTP1.1 gets only 6 requests while HTTP2 gets multiple requests after a secure TCP connection is established
+c.TCP connections established between client and server in HTTP1.1 are limited 
+d.In HTTP2 single secure TCP connection is used after which the requests sent are in hundreds 
+e.HTTP2 is used for faster connection but we may not sure the security is more in this.
+f.HTTP1.1 is a bit slower but secure because it establishes TCP connections rapidly through hand shakes
+g.HTTP1.1 is still used for secure email,banking transactions.... 
+h.HTTP2 is used for faster requesting like video streaming, gaming....
+i.Features like CORS,KEEP ALIVE are present in HTTP1.1,KEEP ALIVE option helps in reusing same TCP connection for multiple HTTP requests 
+
+
+3.Write a blog about objects and its internal representation in Javascript 
+
+Description:
+An object is a entity with properties 
+In javascript object has properties which can be shown by key value pair assosiation
+For example a car is an object with different properties like model,colour,engine type,fuel used.
+This is the way object can have properties which define the characteristics of object
+
+the representation of an object is as follows
+
+let objectName={key1:value1, key2:value2}
+
+for example:    const car = {type:"Fiat", model:"500", color:"white"};
+we can call the property by using objectName.propertyname like 
+car.type gives the "Fiat" and car.model gives "500" 
